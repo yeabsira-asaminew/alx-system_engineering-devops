@@ -1,2 +1,2 @@
 #!/bin/bash
-sed '/C//g;s/c//g'
+tr -d "cC"
